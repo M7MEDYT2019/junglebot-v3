@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = ">";
+ const prefix = "$";
 client.on('im hi lol eread lw wow hi ready', function(){    
     var ms = 40000 ;    
     var setGame = ['$help |EX'];    
